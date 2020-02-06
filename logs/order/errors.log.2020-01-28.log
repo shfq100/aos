@@ -1,0 +1,30 @@
+*     00:44:31.382 [main](     244 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     00:44:31.398 [main](     260 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     00:44:31.401 [main](     263 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     01:46:47.543 [main](      45 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     01:46:47.546 [main](      48 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     01:46:47.548 [main](      50 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     02:12:50.366 [main](      55 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     02:12:50.370 [main](      59 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     02:12:50.374 [main](      63 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     05:39:24.617 [main](      98 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     05:39:24.676 [main](     157 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     05:39:24.679 [main](     160 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     05:59:43.662 [main](      37 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     05:59:43.664 [main](      39 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     05:59:43.667 [main](      42 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false

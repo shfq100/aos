@@ -1,0 +1,4 @@
+com\advantage\common_test\online\store\util\PropertiesFilesTests.class
+com\advantage\common_test\online\store\util\ColorPalletEnumTests.class
+com\advantage\common_test\cfg\AdvantageTestContextConfiguration.class
+com\advantage\common_test\online\store\util\TokenTests.class

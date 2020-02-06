@@ -1,0 +1,490 @@
+*     00:44:31.138 [main](       0 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.145 [main](       7 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.146 [main](       8 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.170 [main](      32 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.171 [main](      33 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.172 [main](      34 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.173 [main](      35 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.174 [main](      36 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.175 [main](      37 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.175 [main](      37 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     00:44:31.269 [main](     131 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     00:44:31.271 [main](     133 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     00:44:31.277 [main](     139 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     00:44:31.278 [main](     140 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     00:44:31.278 [main](     140 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     00:44:31.279 [main](     141 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     00:44:31.365 [main](     227 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.366 [main](     228 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.367 [main](     229 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.368 [main](     230 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.369 [main](     231 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.370 [main](     232 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.371 [main](     233 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     00:44:31.374 [main](     236 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     00:44:31.375 [main](     237 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     00:44:31.375 [main](     237 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     00:44:31.376 [main](     238 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     00:44:31.376 [main](     238 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     00:44:31.377 [main](     239 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     00:44:31.379 [main](     241 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     00:44:31.380 [main](     242 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     00:44:31.381 [main](     243 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     00:44:31.382 [main](     244 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     00:44:31.396 [main](     258 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     00:44:31.397 [main](     259 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     00:44:31.397 [main](     259 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     00:44:31.398 [main](     260 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     00:44:31.399 [main](     261 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     00:44:31.400 [main](     262 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     00:44:31.400 [main](     262 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     00:44:31.401 [main](     263 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     00:44:31.443 [main](     305 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.444 [main](     306 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.444 [main](     306 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.445 [main](     307 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.446 [main](     308 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.447 [main](     309 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.447 [main](     309 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     00:44:31.448 [main](     310 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.498 [main](       0 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.503 [main](       5 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.503 [main](       5 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.504 [main](       6 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.505 [main](       7 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.505 [main](       7 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.506 [main](       8 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.507 [main](       9 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.507 [main](       9 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.508 [main](      10 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:46:47.512 [main](      14 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:46:47.513 [main](      15 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:46:47.514 [main](      16 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:46:47.515 [main](      17 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:46:47.515 [main](      17 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:46:47.516 [main](      18 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:46:47.519 [main](      21 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.522 [main](      24 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.523 [main](      25 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.524 [main](      26 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.525 [main](      27 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.533 [main](      35 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.534 [main](      36 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:46:47.536 [main](      38 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:46:47.537 [main](      39 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:46:47.537 [main](      39 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:46:47.538 [main](      40 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:46:47.538 [main](      40 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:46:47.539 [main](      41 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:46:47.540 [main](      42 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     01:46:47.542 [main](      44 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     01:46:47.542 [main](      44 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     01:46:47.543 [main](      45 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     01:46:47.544 [main](      46 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     01:46:47.545 [main](      47 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     01:46:47.545 [main](      47 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     01:46:47.546 [main](      48 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     01:46:47.547 [main](      49 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     01:46:47.547 [main](      49 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     01:46:47.547 [main](      49 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     01:46:47.548 [main](      50 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     01:46:47.551 [main](      53 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.551 [main](      53 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.552 [main](      54 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.552 [main](      54 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.552 [main](      54 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.553 [main](      55 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.554 [main](      56 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:46:47.554 [main](      56 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.311 [main](       0 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.318 [main](       7 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.319 [main](       8 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.320 [main](       9 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.321 [main](      10 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.322 [main](      11 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.324 [main](      13 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.325 [main](      14 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.326 [main](      15 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.327 [main](      16 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     02:12:50.332 [main](      21 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     02:12:50.333 [main](      22 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     02:12:50.334 [main](      23 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     02:12:50.335 [main](      24 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     02:12:50.336 [main](      25 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     02:12:50.336 [main](      25 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     02:12:50.349 [main](      38 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.350 [main](      39 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.351 [main](      40 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.351 [main](      40 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.352 [main](      41 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.352 [main](      41 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.352 [main](      41 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     02:12:50.354 [main](      43 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     02:12:50.355 [main](      44 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     02:12:50.356 [main](      45 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     02:12:50.356 [main](      45 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     02:12:50.357 [main](      46 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     02:12:50.358 [main](      47 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     02:12:50.360 [main](      49 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     02:12:50.362 [main](      51 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     02:12:50.362 [main](      51 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     02:12:50.366 [main](      55 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     02:12:50.367 [main](      56 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     02:12:50.369 [main](      58 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     02:12:50.369 [main](      58 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     02:12:50.370 [main](      59 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     02:12:50.371 [main](      60 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     02:12:50.372 [main](      61 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     02:12:50.372 [main](      61 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     02:12:50.374 [main](      63 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     02:12:50.377 [main](      66 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.378 [main](      67 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.378 [main](      67 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.379 [main](      68 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.379 [main](      68 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.380 [main](      69 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.381 [main](      70 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     02:12:50.381 [main](      70 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.519 [main](       0 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.524 [main](       5 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.553 [main](      34 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.554 [main](      35 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.554 [main](      35 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.555 [main](      36 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.556 [main](      37 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.556 [main](      37 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.557 [main](      38 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.558 [main](      39 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:39:24.561 [main](      42 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:39:24.562 [main](      43 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:39:24.563 [main](      44 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:39:24.563 [main](      44 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:39:24.564 [main](      45 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:39:24.565 [main](      46 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:39:24.568 [main](      49 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.584 [main](      65 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.584 [main](      65 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.585 [main](      66 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.586 [main](      67 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.594 [main](      75 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.599 [main](      80 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:39:24.601 [main](      82 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:39:24.602 [main](      83 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:39:24.603 [main](      84 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:39:24.603 [main](      84 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:39:24.612 [main](      93 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:39:24.612 [main](      93 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:39:24.615 [main](      96 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     05:39:24.616 [main](      97 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     05:39:24.616 [main](      97 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     05:39:24.617 [main](      98 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     05:39:24.618 [main](      99 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     05:39:24.621 [main](     102 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     05:39:24.674 [main](     155 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     05:39:24.676 [main](     157 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     05:39:24.676 [main](     157 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     05:39:24.678 [main](     159 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     05:39:24.678 [main](     159 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     05:39:24.679 [main](     160 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     05:39:24.682 [main](     163 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.682 [main](     163 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.683 [main](     164 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.683 [main](     164 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.683 [main](     164 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.683 [main](     164 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.683 [main](     164 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:39:24.684 [main](     165 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.625 [main](       0 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.630 [main](       5 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.630 [main](       5 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.631 [main](       6 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.632 [main](       7 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.632 [main](       7 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.633 [main](       8 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.634 [main](       9 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.635 [main](      10 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.635 [main](      10 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     05:59:43.636 [main](      11 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:59:43.641 [main](      16 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:59:43.642 [main](      17 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:59:43.642 [main](      17 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:59:43.643 [main](      18 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:59:43.643 [main](      18 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     05:59:43.647 [main](      22 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.647 [main](      22 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.648 [main](      23 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.649 [main](      24 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.649 [main](      24 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.650 [main](      25 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.650 [main](      25 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     05:59:43.652 [main](      27 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:59:43.653 [main](      28 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:59:43.653 [main](      28 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:59:43.654 [main](      29 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:59:43.657 [main](      32 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:59:43.658 [main](      33 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     05:59:43.659 [main](      34 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     05:59:43.660 [main](      35 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     05:59:43.661 [main](      36 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     05:59:43.662 [main](      37 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     05:59:43.662 [main](      37 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     05:59:43.663 [main](      38 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     05:59:43.664 [main](      39 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     05:59:43.664 [main](      39 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     05:59:43.665 [main](      40 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     05:59:43.665 [main](      40 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     05:59:43.666 [main](      41 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     05:59:43.667 [main](      42 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     05:59:43.667 [main](      42 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.668 [main](      43 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.668 [main](      43 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.669 [main](      44 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.669 [main](      44 msec from start) [DEBUG] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.670 [main](      45 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.670 [main](      45 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     05:59:43.671 [main](      46 msec from start) [WARN ] com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]

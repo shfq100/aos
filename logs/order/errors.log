@@ -1,0 +1,6 @@
+*     19:49:44.284 [main](      36 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     19:49:44.288 [main](      40 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     19:49:44.291 [main](      43 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false

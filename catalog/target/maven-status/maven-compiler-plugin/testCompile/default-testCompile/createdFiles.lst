@@ -1,0 +1,7 @@
+com\advantage\catalog_test\cfg\AdvantageTestContextConfiguration.class
+com\advantage\catalog_test\online\store\dao\CategoryAttributesTests.class
+com\advantage\catalog_test\online\store\dao\GenericRepositoryTests.class
+com\advantage\catalog_test\online\store\image\ImageManagementTests.class
+com\advantage\catalog_test\online\store\dao\DealRepositoryTests.class
+com\advantage\catalog_test\online\store\support\ContactUsTests.class
+com\advantage\catalog_test\online\store\dao\ProductRepositoryTests.class

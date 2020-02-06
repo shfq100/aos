@@ -1,0 +1,8 @@
+{
+  "directory": "vendor",
+  "proxy": "http://proxy.atlanta.hp.com:8080",
+  "https-proxy": "http://proxy.atlanta.hp.com:8080",
+  "storage":{
+      "packages":"/home/jenkins/cache"
+  }
+}

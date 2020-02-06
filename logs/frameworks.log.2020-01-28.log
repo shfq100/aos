@@ -1,0 +1,140 @@
+*     00:44:18.465 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     00:44:18.474 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     00:44:19.283 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     00:44:19.285 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     00:44:19.287 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     00:44:19.287 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     00:44:19.289 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     00:44:19.290 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     00:44:19.292 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     00:44:19.292 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     00:44:19.294 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     00:44:19.294 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     00:44:19.298 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     00:44:19.299 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     01:46:35.445 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     01:46:35.450 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     01:46:36.245 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     01:46:36.246 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     01:46:36.248 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     01:46:36.248 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     01:46:36.249 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     01:46:36.250 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     01:46:36.251 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     01:46:36.251 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     01:46:36.251 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     01:46:36.252 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     01:46:36.253 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     01:46:36.254 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     02:12:37.916 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     02:12:37.921 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     02:12:39.151 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     02:12:39.152 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     02:12:39.154 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     02:12:39.154 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     02:12:39.155 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     02:12:39.156 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     02:12:39.157 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     02:12:39.158 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     02:12:39.159 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     02:12:39.160 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     02:12:39.161 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     02:12:39.162 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     05:39:11.521 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     05:39:11.526 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     05:39:12.284 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     05:39:12.286 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     05:39:12.287 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     05:39:12.288 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     05:39:12.290 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     05:39:12.291 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     05:39:12.292 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     05:39:12.293 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     05:39:12.295 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     05:39:12.296 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     05:39:12.297 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     05:39:12.299 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     05:59:30.401 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     05:59:30.406 [WARN ] [main] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     05:59:31.163 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     05:59:31.165 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     05:59:31.167 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     05:59:31.173 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     05:59:31.174 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     05:59:31.174 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     05:59:31.175 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     05:59:31.176 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     05:59:31.177 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     05:59:31.177 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     05:59:31.178 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     05:59:31.179 [ERROR] [main] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES

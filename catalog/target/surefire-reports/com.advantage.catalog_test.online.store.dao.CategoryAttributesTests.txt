@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.advantage.catalog_test.online.store.dao.CategoryAttributesTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.819 sec

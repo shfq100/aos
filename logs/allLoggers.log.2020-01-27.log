@@ -1,0 +1,692 @@
+*     01:23:13.346 [main](       1 msec from start) [ERROR] common_com.advantage.common.security.TokenJWT.parseToken:84
+The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+com.advantage.common.exceptions.token.SignatureAlgorithmException: The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+	at com.advantage.common.security.TokenJWT.parseToken(TokenJWT.java:83)
+	at com.advantage.common_test.online.store.util.TokenTests.testNegative256ParserToken(TokenTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+*     01:24:55.550 [main](       0 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     01:24:55.555 [main](       5 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     01:24:56.507 [main](     957 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     01:24:56.509 [main](     959 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     01:24:56.511 [main](     961 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     01:24:56.525 [main](     975 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     01:24:56.528 [main](     978 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     01:24:56.528 [main](     978 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     01:24:56.560 [main](    1010 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     01:24:56.561 [main](    1011 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     01:24:56.565 [main](    1015 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     01:24:56.565 [main](    1015 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     01:24:56.566 [main](    1016 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     01:24:56.569 [main](    1019 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     01:24:58.767 [main](    3217 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:24:58.768 [main](    3218 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:24:58.771 [main](    3221 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:24:58.772 [main](    3222 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:24:58.781 [main](    3231 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:24:58.781 [main](    3231 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.019 [main](       0 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.025 [main](       6 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.026 [main](       7 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.027 [main](       8 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.028 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.029 [main](      10 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.030 [main](      11 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.031 [main](      12 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.032 [main](      13 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.033 [main](      14 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:25:11.036 [main](      17 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:25:11.037 [main](      18 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:25:11.038 [main](      19 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:25:11.038 [main](      19 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:25:11.038 [main](      19 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:25:11.038 [main](      19 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:25:11.044 [main](      25 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.045 [main](      26 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.046 [main](      27 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.047 [main](      28 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.047 [main](      28 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.048 [main](      29 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.049 [main](      30 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:25:11.051 [main](      32 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:25:11.052 [main](      33 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:25:11.052 [main](      33 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:25:11.053 [main](      34 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:25:11.054 [main](      35 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:25:11.054 [main](      35 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:25:11.057 [main](      38 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     01:25:11.058 [main](      39 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     01:25:11.059 [main](      40 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     01:25:11.060 [main](      41 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     01:25:11.061 [main](      42 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     01:25:11.062 [main](      43 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     01:25:11.063 [main](      44 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     01:25:11.064 [main](      45 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     01:25:11.065 [main](      46 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     01:25:11.066 [main](      47 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     01:25:11.067 [main](      48 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     01:25:11.068 [main](      49 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     01:25:11.070 [main](      51 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.071 [main](      52 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.071 [main](      52 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.072 [main](      53 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.072 [main](      53 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.073 [main](      54 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.074 [main](      55 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:25:11.074 [main](      55 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:32:20.719 [main](       1 msec from start) [ERROR] common_com.advantage.common.security.TokenJWT.parseToken:84
+The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+com.advantage.common.exceptions.token.SignatureAlgorithmException: The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+	at com.advantage.common.security.TokenJWT.parseToken(TokenJWT.java:83)
+	at com.advantage.common_test.online.store.util.TokenTests.testNegative256ParserToken(TokenTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+*     01:33:33.715 [main](       0 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     01:33:33.720 [main](       5 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     01:33:34.709 [main](     994 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     01:33:34.710 [main](     995 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     01:33:34.713 [main](     998 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     01:33:34.714 [main](     999 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     01:33:34.715 [main](    1000 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     01:33:34.718 [main](    1003 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     01:33:34.721 [main](    1006 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     01:33:34.723 [main](    1008 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     01:33:34.729 [main](    1014 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     01:33:34.730 [main](    1015 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     01:33:34.731 [main](    1016 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     01:33:34.744 [main](    1029 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     01:33:37.015 [main](    3300 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:37.016 [main](    3301 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:37.019 [main](    3304 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:37.019 [main](    3304 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:37.021 [main](    3306 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:37.021 [main](    3306 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.857 [main](       0 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.861 [main](       4 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.862 [main](       5 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.863 [main](       6 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.864 [main](       7 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.864 [main](       7 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.865 [main](       8 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.866 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.866 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.867 [main](      10 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     01:33:45.870 [main](      13 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:33:45.871 [main](      14 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:33:45.872 [main](      15 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:33:45.873 [main](      16 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:33:45.873 [main](      16 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:33:45.874 [main](      17 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     01:33:45.881 [main](      24 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.882 [main](      25 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.883 [main](      26 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.883 [main](      26 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.884 [main](      27 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.884 [main](      27 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.887 [main](      30 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     01:33:45.889 [main](      32 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:33:45.890 [main](      33 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:33:45.890 [main](      33 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:33:45.891 [main](      34 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:33:45.891 [main](      34 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:33:45.891 [main](      34 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     01:33:45.893 [main](      36 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     01:33:45.894 [main](      37 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     01:33:45.894 [main](      37 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     01:33:45.895 [main](      38 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     01:33:45.896 [main](      39 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     01:33:45.897 [main](      40 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     01:33:45.897 [main](      40 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     01:33:45.898 [main](      41 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     01:33:45.898 [main](      41 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     01:33:45.899 [main](      42 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     01:33:45.900 [main](      43 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     01:33:45.901 [main](      44 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     01:33:45.906 [main](      49 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.909 [main](      52 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.909 [main](      52 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.910 [main](      53 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.916 [main](      59 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.922 [main](      65 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.922 [main](      65 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     01:33:45.929 [main](      72 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:17:58.682 [main](       0 msec from start) [ERROR] common_com.advantage.common.security.TokenJWT.parseToken:84
+The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+com.advantage.common.exceptions.token.SignatureAlgorithmException: The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+	at com.advantage.common.security.TokenJWT.parseToken(TokenJWT.java:83)
+	at com.advantage.common_test.online.store.util.TokenTests.testNegative256ParserToken(TokenTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+*     22:19:01.772 [main](       0 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     22:19:01.776 [main](       4 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     22:19:02.891 [main](    1119 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     22:19:02.892 [main](    1120 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     22:19:02.894 [main](    1122 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     22:19:02.896 [main](    1124 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     22:19:02.897 [main](    1125 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     22:19:02.898 [main](    1126 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     22:19:02.899 [main](    1127 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     22:19:02.901 [main](    1129 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     22:19:02.902 [main](    1130 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     22:19:02.902 [main](    1130 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     22:19:02.904 [main](    1132 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     22:19:02.904 [main](    1132 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     22:19:04.955 [main](    3183 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:04.956 [main](    3184 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:04.959 [main](    3187 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:04.960 [main](    3188 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:04.962 [main](    3190 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:04.962 [main](    3190 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.812 [main](       0 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.816 [main](       4 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.817 [main](       5 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.818 [main](       6 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.819 [main](       7 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.819 [main](       7 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.820 [main](       8 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.821 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.821 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.822 [main](      10 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     22:19:13.825 [main](      13 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     22:19:13.826 [main](      14 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     22:19:13.826 [main](      14 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     22:19:13.827 [main](      15 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     22:19:13.828 [main](      16 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     22:19:13.828 [main](      16 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     22:19:13.844 [main](      32 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.845 [main](      33 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.846 [main](      34 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.846 [main](      34 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.847 [main](      35 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.848 [main](      36 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.848 [main](      36 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     22:19:13.850 [main](      38 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     22:19:13.850 [main](      38 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     22:19:13.851 [main](      39 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     22:19:13.851 [main](      39 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     22:19:13.851 [main](      39 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     22:19:13.852 [main](      40 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     22:19:13.854 [main](      42 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     22:19:13.855 [main](      43 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     22:19:13.856 [main](      44 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     22:19:13.857 [main](      45 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     22:19:13.858 [main](      46 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     22:19:13.859 [main](      47 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     22:19:13.860 [main](      48 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     22:19:13.861 [main](      49 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     22:19:13.861 [main](      49 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     22:19:13.862 [main](      50 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     22:19:13.863 [main](      51 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     22:19:13.864 [main](      52 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     22:19:13.865 [main](      53 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.866 [main](      54 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.866 [main](      54 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.867 [main](      55 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.867 [main](      55 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.867 [main](      55 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.867 [main](      55 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     22:19:13.867 [main](      55 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:23:05.629 [main](       0 msec from start) [ERROR] common_com.advantage.common.security.TokenJWT.parseToken:84
+The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+com.advantage.common.exceptions.token.SignatureAlgorithmException: The token signed by HS512 algorithm, but must be signed with HS256 (HmacSHA256)
+	at com.advantage.common.security.TokenJWT.parseToken(TokenJWT.java:83)
+	at com.advantage.common_test.online.store.util.TokenTests.testNegative256ParserToken(TokenTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+*     23:24:07.867 [main](       0 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:288
+HHH000038: Composite-id class does not override equals(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     23:24:07.873 [main](       6 msec from start) [WARN ] catalog_org.hibernate.mapping.RootClass.checkCompositeIdentifier:289
+HHH000039: Composite-id class does not override hashCode(): com.advantage.catalog.store.model.product.ProductAttributeId
+*     23:24:09.167 [main](    1300 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ColorAttribute drop constraint FK_4lh8tvtjlay7fe917fyy18t0e
+*     23:24:09.168 [main](    1301 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.COLORATTRIBUTE
+*     23:24:09.170 [main](    1303 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table DEALS drop constraint FK_4jv7j0353g8hkm4vcyosbkm5a
+*     23:24:09.181 [main](    1314 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.DEALS
+*     23:24:09.182 [main](    1315 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table ImageAttribute drop constraint FK_q5wu95vfxew1pxed2ygy109ny
+*     23:24:09.183 [main](    1316 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.IMAGEATTRIBUTE
+*     23:24:09.183 [main](    1316 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT drop constraint FK_6oweamgjibmex1v06bgk59asd
+*     23:24:09.183 [main](    1316 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT
+*     23:24:09.184 [main](    1317 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_jbumqcl8sam9w1clh3cdm2s38
+*     23:24:09.185 [main](    1318 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     23:24:09.185 [main](    1318 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:426
+HHH000389: Unsuccessful: alter table PRODUCT_ATTRIBUTES drop constraint FK_6rqlij3051my7v5491rx2q90a
+*     23:24:09.186 [main](    1319 msec from start) [ERROR] catalog_org.hibernate.tool.hbm2ddl.SchemaExport.perform:427
+user lacks privilege or object not found: PUBLIC.PRODUCT_ATTRIBUTES
+*     23:24:11.111 [main](    3244 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:11.112 [main](    3245 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:11.115 [main](    3248 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:11.116 [main](    3249 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:11.118 [main](    3251 msec from start) [DEBUG] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:11.119 [main](    3252 msec from start) [WARN ] catalog_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a#d@b.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.386 [main](       0 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+054 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.391 [main](       5 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.392 [main](       6 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+(054) 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.392 [main](       6 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++1 123 456 7890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.393 [main](       7 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 123 4567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.394 [main](       8 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++972 54 1234567 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.395 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 123 4567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.395 [main](       9 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++44 1234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.396 [main](      10 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
++441234567890 match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.396 [main](      10 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+441234567890 not match to pattern ((\+([1-9]{1}[0-9]{0,3}))?[-.\s]?)\(?([0-9]{1,3})\)?[-.\s]?([0-9]{3})[-.\s]?([0-9]{4})$
+*     23:24:20.400 [main](      14 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+davidK7 match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     23:24:20.401 [main](      15 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+King7david match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     23:24:20.402 [main](      16 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kd5 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     23:24:20.402 [main](      16 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     23:24:20.403 [main](      17 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+Kingdavid not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     23:24:20.403 [main](      17 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+KingSolomon123 not match to pattern ((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12})
+*     23:24:20.410 [main](      24 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+a@b.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.411 [main](      25 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015@hpe.com match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.412 [main](      26 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@gov.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.412 [main](      26 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user_2015@java.org.il match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.413 [main](      27 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#@gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.414 [main](      28 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi#gov.il not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.414 [main](      28 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+pmoi@.com not match to pattern ^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$
+*     23:24:20.416 [main](      30 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+user2015 match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     23:24:20.417 [main](      31 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kingdavid match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     23:24:20.418 [main](      32 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.david match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     23:24:20.418 [main](      32 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+king.solomon match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     23:24:20.419 [main](      33 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+kd not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     23:24:20.420 [main](      34 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+inspector.gadget not match to pattern ^[A-Za-z0-9_.-]{3,15}$
+*     23:24:20.421 [main](      35 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2012'
+*     23:24:20.422 [main](      36 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+29.02.2012 : true
+*     23:24:20.423 [main](      37 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '29.02.2013'
+*     23:24:20.424 [main](      38 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     23:24:20.425 [main](      39 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2012'
+*     23:24:20.426 [main](      40 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+02/29/2012 : true
+*     23:24:20.426 [main](      40 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '02/29/2013'
+*     23:24:20.427 [main](      41 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     23:24:20.428 [main](      42 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2012-02-29'
+*     23:24:20.429 [main](      43 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:149
+2012-02-29 : true
+*     23:24:20.429 [main](      43 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidDate:128
+date to check: '2013-02-29'
+*     23:24:20.430 [main](      44 msec from start) [ERROR] order_com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     23:24:20.432 [main](      46 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+00:00:00 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+02:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+12:34:56 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+13:14:15 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [DEBUG] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:59 match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:60:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+23:59:60 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]
+*     23:24:20.433 [main](      47 msec from start) [WARN ] order_com.advantage.root.util.ValidationHelper.isValidByRegExpPattern:117
+24:59:59 not match to pattern ([01]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]

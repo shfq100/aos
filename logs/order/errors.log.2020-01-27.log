@@ -1,0 +1,24 @@
+*     01:25:11.060 [main](      41 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     01:25:11.064 [main](      45 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     01:25:11.068 [main](      49 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     01:33:45.895 [main](      38 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     01:33:45.898 [main](      41 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     01:33:45.901 [main](      44 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     22:19:13.857 [main](      45 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     22:19:13.861 [main](      49 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     22:19:13.864 [main](      52 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false
+*     23:24:20.424 [main](      38 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+29.02.2013 : false
+*     23:24:20.427 [main](      41 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+02/29/2013 : false
+*     23:24:20.430 [main](      44 msec from start) [ERROR] com.advantage.root.util.ValidationHelper.isValidDate:145
+2013-02-29 : false

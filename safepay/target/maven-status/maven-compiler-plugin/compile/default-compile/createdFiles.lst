@@ -1,0 +1,16 @@
+com\advantage\safepay\payment\config\WebConfiguration.class
+com\advantage\safepay\util\IOHelper.class
+com\advantage\safepay\payment\config\AppConfiguration.class
+com\advantage\safepay\payment\dto\SafePayDto.class
+com\advantage\safepay\payment\log\AdvantageDaoCallsLoggingAspect.class
+com\advantage\safepay\payment\log\ApiCallsLoggingAspect.class
+com\advantage\safepay\payment\api\SafePayController.class
+com\advantage\safepay\payment\dto\TransactionTypeEnum.class
+com\advantage\safepay\payment\services\SafePayService.class
+com\advantage\safepay\payment\dto\ResponseEnum.class
+com\advantage\safepay\payment\config\AppSecurityConfig.class
+com\advantage\safepay\payment\config\JacksonObjectMapperConfiguration.class
+com\advantage\safepay\payment\config\AppInitializer.class
+com\advantage\safepay\payment\dto\SafePayResponse.class
+com\advantage\safepay\payment\config\SwaggerConfiguration.class
+com\advantage\safepay\util\ArgumentValidationHelper.class

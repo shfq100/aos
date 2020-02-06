@@ -1,0 +1,3 @@
+com\advantage\order_test\cfg\AdvantageTestContextConfiguration.class
+com\advantage\order_test\online\store\dao\GenericRepositoryTests.class
+com\advantage\order_test\online\store\util\ValidationHelperTests.class
